@@ -1,21 +1,38 @@
-
 .generador-contraseñas {
-  text-align: center;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;  /* Fondo oscuro */
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;  /* Bordes redondeados */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra */
+  max-width: 400px;
+  margin: 50px auto;
 }
 
-.generador-contraseñas input {
-  margin-top: 20px;
-  width: 300px;
-  height: 30px;
-  text-align: center;
-  font-size: 20px;
+.generador-contraseñas h1 {
+  margin-bottom: 20px;
 }
 
-.generador-contraseñas button {
-  margin-top: 20px;
-  width: 200px;
-  height: 40px;
-  font-size: 20px;
+.input-contraseña {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;  /* Bordes redondeados en el input */
+  border: 1px solid #ccc;
+}
+
+.btn-generar {
+  padding: 10px 20px;
+  background-color: #007bff;  /* Estilo de Bootstrap para botones */
+  color: white;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-generar:hover {
+  background-color: #0056b3;  /* Color de hover para el botón */
 }
